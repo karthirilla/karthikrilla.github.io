@@ -1,91 +1,168 @@
-<h1 align="center">👋 Hi, I'm <a href="https://www.linkedin.com/in/jigar-sable/" target="_blank"> Karthi C </a></h1>
-<h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Embedded+Developer;IoT+Enthusiast;PCB+Designer;Tech+Learner" />
-</h3>
+# Analog Line Follower Robot
+
+## Overview
+
+The **Analog Line Follower Robot** is a classic robotics project designed **without using any microcontroller or digital programming**. This project is entirely built using **analog electronic components**, such as op-amps, comparators, logic gates, relays, and motor drivers. It effectively follows a predefined line (usually black on a white surface) using basic sensor inputs and analog electronics logic.
+
+This design is cost-effective, robust, and a great demonstration of fundamental electronics and robotics principles.
 
 ---
 
-- 🌱 **Learning Never Stops 🚀**  
-  Currently exploring **AIoT (AI + IoT)** and advanced **Embedded Systems**.
+## Key Features
 
-- 💬 **Ask me about:**  
-  **Circuit Design, PCB Design, Embedded Programming, IoT Prototyping**
-
-- 👨‍💻 **Personal Portfolio:**  
-  Check it out here: [**Portfolio**](https://karthikrilla.vercel.app)
-
-- 🎯 **Hobbies:**  
-  Tinkering with hardware, optimizing embedded firmware, and exploring **BLE** technologies.
-
-- 😄 **Pronouns:** He/His  
----
-
-<h3 align="left">Connect with me:</h3>
-<div align="left">
-  <a href="https://www.linkedin.com/in/jigar-sable/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:karthikrilla@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.instagram.com/jigarsable.dev"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://t.me/lifecode5"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-</div>
+- **Microcontroller-Free Design**: Entire system built using analog components.
+- **Analog Sensors**: Line detection using light-dependent resistors (LDRs) or photodiodes.
+- **Op-Amp as Comparator**: LM358 operational amplifier used to detect line deviations.
+- **Logic Control**: Logic gates and relays control motor direction and speed.
+- **Relay Mechanism**:
+  - **DPDT (Double Pole Double Throw)**: Switches motor polarity for direction control.
+  - **DPST (Double Pole Single Throw)**: For on/off control of motors.
+- **Motor Drivers**: Simple DC motors controlled via relays for movement.
+- **Power Supply**: Zener diodes ensure stable voltage for the analog components.
 
 ---
 
-<h3 align="left">🛠️ Skills :</h3>
-<div align="left">
-  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-%23E34F26.svg?style=for-the-badge&logo=arduino&logoColor=white"/>
-  <img alt="STM32" src="https://img.shields.io/badge/STM32-%231572B6.svg?style=for-the-badge&logo=STM&logoColor=white"/>
-  <img alt="PIC Microcontroller" src="https://img.shields.io/badge/PIC%20Microcontroller-%23323330.svg?style=for-the-badge&logo=PIC&logoColor=white"/> 
-  <img alt="Altium Designer" src="https://img.shields.io/badge/Altium-%230769AD.svg?style=for-the-badge&logo=Altium&logoColor=white"/>
-  <img alt="Eagle PCB" src="https://img.shields.io/badge/Eagle%20PCB-%23E34F26.svg?style=for-the-badge&logo=Eagle&logoColor=white"/>
-  <img alt="MQTT" src="https://img.shields.io/badge/MQTT-593D88?style=for-the-badge&logo=MQTT&logoColor=white"/>
-  <img alt="IoT" src="https://img.shields.io/badge/IoT-000000?style=for-the-badge&logo=IoT&logoColor=white"/>
-</div>
+## System Components
+
+1. **Sensors**:
+   - Light-dependent resistors (LDRs) or photodiodes detect line contrast.
+   - Sensors generate analog voltage based on light intensity.
+
+2. **Op-Amp LM358**:
+   - Configured as a **comparator** to compare sensor output voltage with a reference voltage.
+   - Determines line position and generates high/low signals accordingly.
+
+3. **Logic Gates**:
+   - Used to implement the control logic for motor movement:
+     - AND, OR, and NOT gates process comparator outputs.
+
+4. **Relays**:
+   - **DPDT Relays**: Switch motor direction (forward/reverse).
+   - **DPST Relays**: Enable or disable motor power.
+
+5. **Motor Drivers**:
+   - Simple driver circuit for controlling two DC motors for movement.
+
+6. **Zener Diodes**:
+   - Used for voltage regulation to protect analog components.
+
+7. **Mechanical Structure**:
+   - Chassis to mount components, motors, and wheels.
 
 ---
 
-<h3 align="left">💻 Programming Languages:</h3>
-<div align="left">
-  <img alt="C" src="https://img.shields.io/badge/C%20Language-%23ED8B00.svg?style=for-the-badge&logo=C&logoColor=white"/>
-  <img alt="Embedded C" src="https://img.shields.io/badge/Embedded%20C-%23323330.svg?style=for-the-badge&logo=Embedded%20C&logoColor=%23F7DF1E"/>
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-</div>
+## Working Principle
+
+1. **Line Detection**:
+   - The LDRs or photodiodes detect light reflected from the surface.
+   - Black lines reflect less light, generating a **low voltage** signal.
+   - White surfaces reflect more light, generating a **high voltage** signal.
+
+2. **Comparator Circuit (LM358)**:
+   - The analog voltage from the sensors is compared with a reference voltage.
+   - Outputs a **high (1)** or **low (0)** signal based on the comparison.
+
+3. **Logic Control**:
+   - Logic gates process the comparator outputs to determine whether the robot should move forward, turn left, or turn right.
+
+4. **Relay Control**:
+   - **DPDT relays** control motor direction (left or right turn).
+   - **DPST relays** turn the motors on or off.
+
+5. **Motor Movement**:
+   - Motors adjust their direction and speed to follow the line:
+     - **Move Forward**: When both sensors detect the line.
+     - **Turn Left**: When the left sensor goes off the line.
+     - **Turn Right**: When the right sensor goes off the line.
 
 ---
 
-<h3 align="left">🛠️ Tools & IDEs:</h3>
-<div align="left">
-  <img alt="Keil IDE" src="https://img.shields.io/badge/Keil%20IDE-%23563D7C.svg?style=for-the-badge&logo=Keil&logoColor=white"/>
-  <img alt="STM32 CubeIDE" src="https://img.shields.io/badge/STM32%20CubeIDE-%2320232a.svg?style=for-the-badge&logo=STM&logoColor=white"/>
-  <img alt="NI Multisim" src="https://img.shields.io/badge/NI%20Multisim-%23E34F26.svg?style=for-the-badge&logo=NI%20Multisim&logoColor=white"/>
-  <img alt="LTSpice" src="https://img.shields.io/badge/LTSpice-%23777BB4.svg?style=for-the-badge&logo=LTSpice&logoColor=white"/>
-  <img alt="Proteus" src="https://img.shields.io/badge/Proteus-%2343853D.svg?style=for-the-badge&logo=Proteus&logoColor=white"/>
-</div>
+## Hardware Circuit Design
+
+The key circuits include:
+
+### 1. **Sensor Circuit**
+- **LDRs/Photodiodes** in a voltage divider configuration to generate analog output based on light intensity.
+
+### 2. **Comparator Circuit (LM358)**
+- Two comparators (one per sensor) compare sensor voltage to a reference voltage.
+
+### 3. **Logic Circuit**
+- Logic gates (AND, OR, NOT) process the comparator signals to generate control signals for the relays.
+
+### 4. **Relay Control**
+- **DPDT and DPST relays** switch motor polarity and power supply to control motor movement.
+
+### 5. **Motor Driver Circuit**
+- Simple H-Bridge configuration using relays to drive the two DC motors.
 
 ---
 
-<h3 align="left">☁️ Databases & Cloud:</h3>
-<div align="left">
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-4EA94B?style=for-the-badge&logo=Firebase&logoColor=white"/>
-  <img alt="AWS IoT" src="https://img.shields.io/badge/AWS%20IoT-%23232F3E.svg?style=for-the-badge&logo=amazon&logoColor=white"/>
-</div>
+## Components List
+
+| **Component**                 | **Quantity** |
+|-------------------------------|--------------|
+| LM358 Op-Amp                 | 1            |
+| LDRs/Photodiodes             | 2            |
+| Resistors (various values)   | Multiple     |
+| Zener Diodes                 | 2            |
+| DPDT Relays                  | 2            |
+| DPST Relays                  | 1            |
+| Logic Gates (AND, OR, NOT ICs)| 1 each       |
+| DC Motors                    | 2            |
+| Wheels                       | 2            |
+| Chassis                      | 1            |
+| Power Supply (Battery Pack)  | 1            |
+| Connecting Wires             | As needed    |
 
 ---
 
-<h3 align="left">📊 GitHub Stats:</h3>
-<div align="center">
-<table>
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=karthirilla&show_icons=true&theme=dark&locale=en" alt="karthirilla" /></td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=karthirilla&show_icons=true&theme=dark&locale=en&layout=compact" alt="karthirilla" /></td>
-  </tr>
-</table>
-</div>
+## Circuit Operation Logic
 
-<div align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karthirilla&theme=dark" alt="karthirilla" />
-</div>
+| **Left Sensor** | **Right Sensor** | **Action**      |
+|-----------------|------------------|-----------------|
+| 1 (High)       | 1 (High)         | Move Forward    |
+| 0 (Low)        | 1 (High)         | Turn Right      |
+| 1 (High)       | 0 (Low)          | Turn Left       |
+| 0 (Low)        | 0 (Low)          | Stop/Reverse    |
 
 ---
 
-<h3 align="center">⭐ Keep Learning and Keep Building ⭐</h3>
+## Tools Used
+
+- **Circuit Design**: Schematic design done using basic circuit software or manual breadboard prototyping.
+- **Mechanical Assembly**: Chassis assembled using lightweight materials.
+- **Testing Tools**: Multimeter, oscilloscope, and power supply tester for verifying circuit functionality.
+
+---
+
+## Advantages
+
+- **Low Cost**: No microcontroller or programming required, reducing the cost.
+- **Educational Value**: Demonstrates the principles of analog electronics, logic gates, and basic robotics.
+- **Simple Design**: Easy to build and modify.
+- **Low Power Consumption**: Analog circuits require minimal power.
+
+---
+
+## Limitations
+
+- **Limited Functionality**: Compared to microcontroller-based robots, it has limited features.
+- **Sensitivity**: Performance depends on lighting conditions and sensor placement.
+- **Accuracy**: Less accurate compared to digital solutions with PID control.
+
+---
+
+## Conclusion
+
+The **Analog Line Follower Robot** is an excellent project for learning the fundamentals of analog electronics and robotics. It highlights how simple components like **op-amps**, **relays**, and **logic gates** can be combined to create a functional and cost-effective robot that follows a line without requiring any microcontroller.
+
+This project is ideal for electronics enthusiasts, students, and hobbyists looking to explore robotics without diving into programming or microcontrollers.
+
+---
+
+## Future Improvements
+
+- Add adjustable sensitivity for sensors using potentiometers.
+- Integrate more advanced analog control mechanisms for smoother turns.
+- Explore hybrid analog-digital solutions for better performance.
