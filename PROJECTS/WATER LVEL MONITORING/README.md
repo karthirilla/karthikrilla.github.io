@@ -3,6 +3,17 @@
 ## Overview
 The **Water Level Monitoring System** is an industrial-grade solution for accurately monitoring water levels using a **4-20mA sensor**. The system processes sensor data, displays the water level, and provides motor control, buzzer alerts, and cutoff features. The system is powered by an **STM32F103** microcontroller and uses a **high-precision ADC** for accurate measurements.
 
+# Water Level Monitoring
+
+## Images
+
+<!-- Water Level Monitoring Images -->
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/WATER%20LVEL%20MONITORING/WATER_LEVEL_MONITORING_1.jpg" alt="Water Level Monitoring 1" style="width: 48%;"/>
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/WATER%20LVEL%20MONITORING/WATER_LEVEL_MONITORING_2.jpg" alt="Water Level Monitoring 2" style="width: 48%;"/>
+</div>
+
+
 ---
 
 ## Features
