@@ -4,6 +4,15 @@
 
 The **Multi-Purpose Robot** is a versatile robotics platform that integrates multiple control modes and features into a single design. It combines **IR sensor-based line following**, **ultrasonic-based obstacle avoidance**, and **Bluetooth-based voice and gyroscope control** capabilities. This project is built using an **ATmega328P microcontroller**, custom **pulley-based PCB design**, and modular motor control using the **L293D motor driver**.
 
+# Multi Purpose Robot
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/MULTI%20PURPOSE%20ROBOT/MULTI_PURPOSE_ROBOT_1.jpg" width="30%" />
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/MULTI%20PURPOSE%20ROBOT/MULTI_PURPOSE_ROBOT_2.jpg" width="30%" />
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/MULTI%20PURPOSE%20ROBOT/MULTI_PURPOSE_ROBOT_3.jpg" width="30%" />
+</div>
+
+
 ---
 
 ## Key Features
