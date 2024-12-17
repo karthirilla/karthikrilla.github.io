@@ -6,6 +6,15 @@ The **Fastest Line Follower Robot** is a high-speed, microcontroller-based robot
 
 The robot incorporates **8 photodiode sensors** for line detection, an **ATmega328P** microcontroller for decision-making, and a **Pololu 3pi motor system** for propulsion. The innovative use of a **24,000 RPM BLDC suction motor** helps reduce weight during forward motion and increases ground adhesion during turns.
 
+# Fastest Line Follower Robot
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/FASTEST%20LINE%20FOLLOWER%20ROBOT/FASTEST_LINE_FOLLOWER_1.jpg" width="30%" />
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/FASTEST%20LINE%20FOLLOWER%20ROBOT/FASTEST_LINE_FOLLOWER_2.jpg" width="30%" />
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/FASTEST%20LINE%20FOLLOWER%20ROBOT/FASTEST_LINE_FOLLOWER_3.jpg" width="30%" />
+</div>
+
+
 ---
 
 ## Key Features
