@@ -3,6 +3,10 @@
 ## Overview
 This project is an **Agriculture Gate Valve Automation System** developed using the **ESP32-S3 microcontroller**. It automates the process of opening and closing gate valves in agricultural fields and leverages **LoRa Mesh Network Technology** for long-range communication. This system is reliable, cost-effective, and ideal for remote agricultural applications.
 
+![ESP32 Lora Automation Front](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/AGRICULTURE%20GATE%20VALVE%20AUTOMATION/ESP32_LORA_AUTOMATION_FRONT.png)
+![ESP32 Lora Automation Back](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/AGRICULTURE%20GATE%20VALVE%20AUTOMATION/ESP32_LORA_AUTOMATION_BACK.png)
+
+
 ---
 
 ## Features
