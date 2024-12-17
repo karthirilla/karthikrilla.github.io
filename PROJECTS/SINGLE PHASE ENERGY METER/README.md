@@ -2,6 +2,9 @@
 
 ## Overview
 The **Single Phase Energy Meter** is designed to monitor current consumption and voltage levels in real time using ESP32. It includes a **prepaid/postpaid energy monitoring system** with safety features like over-voltage, under-voltage, and over-current protection. The device is capable of remote control and automation, making it ideal for home energy management.
+# Single Phase Energy Meter
+
+![Single Phase Energy Meter](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/SINGLE%20PHASE%20ENERGY%20METER/SINGLE_PHASE_ENERGY_METER.jpg)
 
 ---
 
