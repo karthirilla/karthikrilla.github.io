@@ -2,6 +2,22 @@
 
 ## Overview
 The **3 Phase Energy Meter Testing System** is a custom-built solution to test and validate the performance of 3-phase energy meters. The system uses specialized energy measurement ICs to measure critical electrical parameters, including current, voltage, power factor, and phase angle. An **ESP32 microcontroller** acts as the central processing unit with isolation to prevent interference.
+# Three Phase Energy Meter Testing
+
+## Images
+
+### First Grid (Images 1, 2, and 3)
+![Three Phase Energy Meter Test 1](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_1.jpg)
+![Three Phase Energy Meter Test 2](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_2.jpg)
+![Three Phase Energy Meter Test 3](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_3.jpg)
+
+### Second Grid (Images 4, 5, and 6)
+![Three Phase Energy Meter Test 4](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_4.jpg)
+![Three Phase Energy Meter Test 5](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_5.jpg)
+![Three Phase Energy Meter Test 6](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_6.jpg)
+
+### Separate Image (Image 7)
+![Three Phase Energy Meter Test 7](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/THREE%20PHASE%20ENERGY%20METER%20TESTING/THREE_PHASE_ENERGY_METER_TEST_7.jpg)
 
 ---
 
