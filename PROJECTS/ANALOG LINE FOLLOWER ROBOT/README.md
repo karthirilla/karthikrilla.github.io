@@ -6,6 +6,11 @@ The **Analog Line Follower Robot** is a classic robotics project designed **with
 
 This design is cost-effective, robust, and a great demonstration of fundamental electronics and robotics principles.
 
+![Analog Line Follower Robot 1](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ANALOG%20LINE%20FOLLOWER%20ROBOT/ANALOG%20LINE%20FOLLOWER%201.jpg)
+![Analog Line Follower Robot 2](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ANALOG%20LINE%20FOLLOWER%20ROBOT/ANALOG%20LINE%20FOLLOWER%202.jpg)
+![Analog Line Follower Robot 3](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ANALOG%20LINE%20FOLLOWER%20ROBOT/ANALOG%20LINE%20FOLLOWER%203.jpg)
+
+
 ---
 
 ## Key Features
