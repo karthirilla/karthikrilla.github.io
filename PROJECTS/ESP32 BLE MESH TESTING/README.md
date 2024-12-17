@@ -3,10 +3,11 @@
 ## Overview
 The **ESP32 BLE Mesh Testing System** is designed for testing the BLE Mesh concept with custom input/output configurations. It uses the **ESP32-S3 microcontroller** and integrates a **1.3-inch I2C OLED display** and an **SD card** for data storage. The system supports **BLE Mesh** networking for communication between nodes and implements client-server models, vendor models, and custom data transmission.
 
-![ESP32 BLE Mesh Testing 1](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ESP32%20BLE%20MESH%20TESTING/ESP32_BLE_MESH_TESTING_1.jpg)
-![ESP32 BLE Mesh Testing 2](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ESP32%20BLE%20MESH%20TESTING/ESP32_BLE_MESH_TESTING_2.jpg)
-![ESP32 BLE Mesh Testing 3](https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ESP32%20BLE%20MESH%20TESTING/ESP32_BLE_MESH_TESTING_3.jpg)
-
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ESP32%20BLE%20MESH%20TESTING/ESP32_BLE_MESH_TESTING_1.jpg" width="30%" />
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ESP32%20BLE%20MESH%20TESTING/ESP32_BLE_MESH_TESTING_2.jpg" width="30%" />
+    <img src="https://github.com/karthirilla/karthikrilla.github.io/blob/main/PROJECTS/ESP32%20BLE%20MESH%20TESTING/ESP32_BLE_MESH_TESTING_3.jpg" width="30%" />
+</div>
 
 ---
 
